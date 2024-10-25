@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2,50px);
+            grid-template-rows: repeat(6,50px);   
+            gap: 20px 20px;
+            border: 1px black solid;  
+        }
+        .Grp1{
+            background-color:#808000;  
+            
+        }
+        .DiffS{
+            background-color: #A52A2A;
+            color: white;
+           blank
+            font-weight: bolder;
+            text-align: center;
+            font-size: 40px;
+        }
+        div.Grp1:nth-child(even){
+            background-color: #DC143C;
+        }
+        .white{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Grp1 DiffS">H</div>
+        <div class="white"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+        <div class="Grp1"></div>
+    </div>
+</body>
+</html>
